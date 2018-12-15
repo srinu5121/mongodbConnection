@@ -1,0 +1,25 @@
+{
+  "name": "restapitesting",
+  "version": "1.0.0",
+  "description": "Crashcourse on RestApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "work":"mocha",
+    "client": "cd ./redux-app && npm start",
+    
+  },
+  "keywords": [
+    "RESTAPi"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.12",
+    "nodemon": "^1.18.6"
+  }
+}
