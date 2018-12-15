@@ -1,5 +1,5 @@
 var express= require("express");
-var Ninja = require("./ninjaCharacter.js")
+var Ninja = require("./Model.js")
 var Router = express.Router();
 
 Router.get("/", function(req, res){
